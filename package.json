@@ -1,0 +1,19 @@
+{
+  "name": "l02-blog-api",
+  "version": "1.0.0",
+  "description": "Web API de blog con usuarios, publicaciones y comentarios usando Node.js, Express y PostgreSQL",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node src/utils/initDb.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "pg": "^8.13.1"
+  }
+}
